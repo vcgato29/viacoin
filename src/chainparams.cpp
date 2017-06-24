@@ -77,8 +77,8 @@ public:
         consensus.nMajorityEnforceBlockUpgrade = 15000;
         consensus.nMajorityRejectBlockOutdated = 19000;
         consensus.nMajorityWindow = 20000;
-        consensus.BIP34Height = -1;
-        consensus.BIP34Hash = uint256S("0x0");
+        consensus.BIP34Height = 3830899;
+        consensus.BIP34Hash = uint256S("0x013b69ad2affc6cb8b3f4c9a9e8a3a3e53c4e3e5e33378e4cf36e5abfc0c1588");
         consensus.powLimit = uint256S("000001ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); // ~uint25(0) >> 23
         consensus.nPowTargetTimespan = 14 * 24 * 60 * 60; // two weeks
         consensus.nPowTargetSpacing = 1 * 24;
